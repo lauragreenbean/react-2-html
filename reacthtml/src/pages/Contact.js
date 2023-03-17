@@ -1,9 +1,10 @@
 import React from 'react';
 
-class Home extends React.Component {
+
+class Contact extends React.Component {
   render() {
     return (
-        <div>
+        <main>
         <div class="hero">
         <div class="container">
             <div class="row">
@@ -52,8 +53,8 @@ class Home extends React.Component {
             </div>
         </div>
     </div>
-    </div>
+    </main>
     );
   }
 }
-export default Home;
+export default Contact;

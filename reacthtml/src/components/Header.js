@@ -8,7 +8,7 @@ class Header extends React.Component{
                 <div class="row">
                     <div class="col w-3 left">
                         <div class="logo">
-                            <a href="/"><img src="https://thedevdrawer.com/assets/img/logo-header.png"/></a>
+                            <a href="/" ><img src="https://thedevdrawer.com/assets/img/logo-header.png" alt= " "/></a>
                         </div>
                     </div>
                     <div class="col w-9">
