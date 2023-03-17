@@ -1,21 +1,18 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from 'react';
 
-class Footer extends React.Component {
-	render() {
-		return (
-			<footer>
-				<p class="text-center hidden-sm">
-					<Link to="/" exact>
-						Home
-					</Link>{" "}
-					| <Link to="/about">About</Link> |{" "}
-					<Link to="/contact">Contact</Link>
-				</p>
-				<p class="text-center">Fake Copyright 2021 &copy; The Dev Drawer</p>
-			</footer>
-		);
-	}
+class Footer extends React.Component{
+    render(){
+       return(
+        <footer>
+        <p class="text-center hidden-sm">
+            <a href="/index.html" class="active">Home</a> | <a href="/about.html">About</a> | <a href="/contact.html">Contact</a>
+        </p>
+        <p class="text-center">
+            Fake Copyright 2021 &copy; The Dev Drawer
+        </p>
+    </footer>
+       )
+    }
 }
 
 export default Footer;
